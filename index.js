@@ -5,7 +5,7 @@ const router=require('./router/router');
 const cors=require('cors');
 const app=express();
 const corsOptions={
-origin:" http://localhost:5175",
+origin:" https://multer-frontend-woad.vercel.app/",
 method:"GET,POST,PUT,PATCH,DELETE,HEAD",
 credentials:true
 }
